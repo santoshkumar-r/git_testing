@@ -24,6 +24,7 @@ public static void printAllPairs(int arr[])
     {
         for(int j=i+1;j<arr.length;j++)
         {
+            System.out.println("The all possible pairs are:");
             System.out.println(arr[i]+" "+arr[j]);
         }
     }
